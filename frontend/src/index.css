@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Outfit:wght@400;700;900&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-primary: #1e293b; /* Slate 800 */
+  --color-primary-dark: #0f172a;
+  --color-secondary: #38bdf8; /* Sky 400 */
+  --color-accent: #f59e0b; /* Amber 500 */
+  --color-success: #10b981;
+  --color-danger: #ef4444;
+  --color-surface: #ffffff;
+  --color-background: #f8fafc; /* Slate 50 */
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-background text-slate-900 antialiased selection:bg-secondary selection:text-slate-900;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-black tracking-tight;
+  }
+}
+
+.slab-card {
+  @apply bg-white border-[2px] border-slate-900 rounded-[1.5rem] p-6 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] transition-all;
+}
+
+.slab-card:hover {
+  @apply shadow-[6px_6px_0px_0px_rgba(245,158,11,1)] -translate-x-0.5 -translate-y-0.5;
+}
+
+.neo-btn-primary {
+  @apply bg-primary text-white border-[2px] border-slate-900 rounded-xl px-6 py-3 font-bold flex items-center justify-center gap-2 shadow-[2px_2px_0px_0px_rgba(15,23,42,1)] transition-all hover:shadow-[1px_1px_0px_0px_rgba(15,23,42,1)] hover:translate-x-0.5 hover:translate-y-0.5 active:shadow-none active:translate-x-1 active:translate-y-1;
+}
+
+.neo-btn-secondary {
+  @apply bg-secondary text-slate-900 border-[2px] border-slate-900 rounded-xl px-6 py-3 font-bold flex items-center justify-center gap-2 shadow-[2px_2px_0px_0px_rgba(15,23,42,1)] transition-all hover:shadow-[1px_1px_0px_0px_rgba(15,23,42,1)] hover:translate-x-0.5 hover:translate-y-0.5 active:shadow-none active:translate-x-1 active:translate-y-1;
+}
+
+.neo-btn-outline {
+  @apply bg-white text-slate-900 border-[2px] border-slate-900 rounded-xl px-6 py-3 font-bold flex items-center justify-center gap-2 shadow-[2px_2px_0px_0px_rgba(15,23,42,1)] transition-all hover:shadow-[1px_1px_0px_0px_rgba(15,23,42,1)] hover:translate-x-0.5 hover:translate-y-0.5 active:shadow-none active:translate-x-1 active:translate-y-1;
+}
+
+.dot-pattern {
+  background-image: radial-gradient(#0f172a15 2px, transparent 0);
+  background-size: 24px 24px;
+}
