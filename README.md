@@ -340,5 +340,3 @@ Deployment
 Core Value Proposition
 ZeroGap is not just another learning platform or job portal.
 It acts as an AI Career Operating System that continuously understands a user's skills, identifies gaps, recommends the best learning resources, tracks progress, improves resumes, and matches them with the right opportunities—all through a personalized, data-driven experience.
-
-Gh
