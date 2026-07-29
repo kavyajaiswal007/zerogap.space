@@ -1,231 +1,285 @@
-# ZeroGap – AI-Powered Career Intelligence Platform
+<div align="center">
 
-## Vision
+# 🚀 ZeroGap
 
-ZeroGap is an AI-powered platform that helps students and early professionals identify their skill gaps, build personalized learning roadmaps, improve their resumes, and discover job opportunities based on their current abilities and career goals.
+### AI-Powered Career Intelligence Platform
 
-Instead of showing generic courses or job listings, ZeroGap creates a personalized career journey for every user.
+[![GitHub stars](https://img.shields.io/github/stars/kavyajaiswal007/zerogap.space?style=for-the-badge&logo=github&color=yellow)](https://github.com/kavyajaiswal007/zerogap.space/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/kavyajaiswal007/zerogap.space?style=for-the-badge&logo=github&color=blue)](https://github.com/kavyajaiswal007/zerogap.space/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/kavyajaiswal007/zerogap.space?style=for-the-badge&logo=github&color=red)](https://github.com/kavyajaiswal007/zerogap.space/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/kavyajaiswal007/zerogap.space?style=for-the-badge&logo=github&color=green)](https://github.com/kavyajaiswal007/zerogap.space/pulls)
+[![License](https://img.shields.io/github/license/kavyajaiswal007/zerogap.space?style=for-the-badge&color=purple)](https://github.com/kavyajaiswal007/zerogap.space/blob/main/LICENSE)
 
-## Problem
+---
 
-Today's students face several challenges:
+**ZeroGap** is an AI-powered platform that helps students and early professionals identify skill gaps, build personalized learning roadmaps, improve resumes, and discover job opportunities — all based on their current abilities and career goals.
 
-- They don't know which skills companies actually expect.
-- They waste time following random YouTube playlists.
-- They don't know if they are job-ready.
-- Their resumes aren't ATS optimized.
-- There is no platform that connects learning, resume improvement, and job preparation into one ecosystem.
+[🚀 Live Demo](https://zerogap-frontend-002.vercel.app) · [📋 Report Bug](https://github.com/kavyajaiswal007/zerogap.space/issues) · [✨ Request Feature](https://github.com/kavyajaiswal007/zerogap.space/issues)
 
-ZeroGap aims to solve this.
+</div>
 
-## How It Works
+---
 
-### Step 1 — User Authentication
+## 🎯 The Problem
 
-Users can create an account using:
+Today's students face critical career challenges:
 
-- Email & Password
-- Google Sign-In
+| Challenge | Description |
+|-----------|-------------|
+| 🎯 **Skill Uncertainty** | Don't know which skills companies actually expect |
+| 📚 **Random Learning** | Waste time following random YouTube playlists |
+| ✅ **Job Readiness** | Don't know if they are job-ready |
+| 📄 **Resume Issues** | Resumes aren't ATS optimized |
+| 🔗 **Disconnected Tools** | No platform connecting learning, resume, and job prep |
 
-After authentication, every user gets a personal profile.
+**ZeroGap solves all of this in one platform.**
 
-### Step 2 — Build Career Profile
+---
 
-Instead of asking only for basic details, we collect complete career information.
+## ✨ Features
 
-**Education**
+<div align="center">
 
-- College
-- Degree
-- Branch
-- Semester
-- Graduation Year
-- CGPA
+| Feature | Description |
+|---------|-------------|
+| 🔐 **Smart Authentication** | Email/Password + Google Sign-In with secure JWT |
+| 👤 **Career Profile** | Complete career information beyond basic details |
+| 🧠 **AI Skill Gap Analysis** | Compare skills against industry expectations |
+| 📊 **Personalized Dashboard** | Unique dashboard with scores, streaks, and roadmap |
+| 📚 **AI Learning Resources** | YouTube playlists, docs, and projects for skill gaps |
+| 📄 **Resume Intelligence** | ATS score, keyword match, AI review & optimization |
+| 💼 **Smart Job Matching** | Ranked opportunities based on compatibility |
+| 🤖 **AI Career Mentor** | Chat with AI based on your own profile |
 
-**Skills**
+</div>
 
-- Programming Languages
-- Frameworks
-- Databases
-- Tools
-- Technologies
+---
 
-**Experience**
+## 🛠️ Tech Stack
 
-- Projects
-- Internships
-- Certifications
-- Hackathons
-
-**Career Goals**
-
-- Dream Company
-- Target Role
-- Expected Salary
-- Preferred Location
-- Preferred Tech Stack
-
-### Step 3 — AI Skill Gap Analysis
-
-Our AI compares the user's profile against industry expectations for their target role.
-
-**Example:**
-User wants to become a Backend Engineer.
-
-**Current Skills:**
-- Python
-- SQL
-- Git
-
-**Required Skills:**
-- FastAPI
-- Docker
-- Redis
-- PostgreSQL
-- AWS
-- CI/CD
-
-The platform automatically identifies missing skills and creates a personalized roadmap.
-
-### Step 4 — Personalized Dashboard
-
-Every user gets a unique dashboard generated from their profile.
-
-The dashboard includes:
-
-- Career Readiness Score
-- Skill Match Percentage
-- Learning Streak
-- Progress Tracking
-- Weekly Goals
-- Personalized Roadmap
-- Job Readiness Score
-- AI Suggestions
-- Upcoming Milestones
-
-No two dashboards are identical.
-
-### Step 5 — AI Learning Recommendations
-
-Instead of recommending random courses, ZeroGap suggests learning resources based on each user's skill gaps.
-
-Recommendations can include:
-
-- YouTube Playlists
-- Documentation
-- Roadmaps
-- Articles
-- Projects
-- Practice Platforms
-
-**Example:**
-Missing Skill: Docker
-Recommended:
-- Docker Crash Course
-- Docker Documentation
-- Beginner Docker Project
-
-### Step 6 — Resume Intelligence
-
-Users upload their resume. The platform provides:
-
-- ATS Score
-- Keyword Match
-- Missing Skills
-- Resume Suggestions
-- AI Resume Review
-- Resume Optimization
-- Resume Comparison with Job Description
-
-### Step 7 — Smart Job Matching
-
-Jobs are matched using:
-
-- User Skills
-- Resume
-- Career Goal
-- Skill Gap
-- Experience
-- Preferred Location
-
-Instead of showing thousands of jobs, the platform ranks opportunities based on compatibility.
-
-Each job displays:
-
-- Match Percentage
-- Missing Skills
-- Salary
-- Required Experience
-- Preparation Checklist
-
-### Step 8 — AI Career Mentor
-
-Users can chat with an AI mentor.
-
-**Examples:**
-- What should I learn next?
-- Am I ready for Google?
-- How do I improve my ATS score?
-- Which projects should I build?
-- Which certification should I complete?
-
-The AI responds based on the user's own profile instead of generic internet advice.
-
-## Future Features
-
-- AI Mock Interviews
-- Coding Skill Assessment
-- Real-time Skill Tests
-- GitHub Profile Analysis
-- LinkedIn Profile Analysis
-- Automatic Portfolio Generator
-- Daily Learning Planner
-- Company-wise Interview Preparation
-- Community Challenges
-- Mentor Marketplace
-- Internship Recommendations
-
-## Technology Stack
+<div align="center">
 
 ### Frontend
-
-- React
-- Tailwind CSS
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
 ### Backend
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-- Node.js + Express + TypeScript
-- Supabase (PostgreSQL + Auth + Storage)
-- Redis (BullMQ queues + caching)
+### Database & Auth
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-### Authentication
-
-- Google OAuth
-- JWT Authentication
-
-### AI
-
-- OpenAI + Anthropic
-- Recommendation Engine
-- Resume Analysis
-- Skill Gap Analysis
+### AI & APIs
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-D4A574?style=for-the-badge&logo=anthropic&logoColor=white)
 
 ### Deployment
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 
-- Vercel (Frontend)
-- Render (Backend)
-- Supabase (Database + Auth + Storage)
+</div>
 
-## Project Structure
+---
+
+## 📐 Architecture
 
 ```
-(zerogap.space)/
-├── frontend/          # React + Tailwind CSS
-├── backend/           # Node.js + Express + TypeScript
-├── aiml/              # AI/ML scripts and models
-└── reserch and others/ # Research materials
+zerogap.space/
+├── 🎨 frontend/                    # React + TypeScript + Tailwind
+│   ├── src/
+│   │   ├── components/             # UI Components
+│   │   ├── pages/                  # Route Pages
+│   │   └── utils/                  # Helper Functions
+│   └── public/                     # Static Assets
+│
+├── ⚙️ backend/                     # Node.js + Express + TypeScript
+│   ├── src/
+│   │   ├── modules/                # Feature Modules
+│   │   │   ├── auth/               # Authentication
+│   │   │   ├── profile/            # User Profiles
+│   │   │   ├── dashboard/          # Dashboard Analytics
+│   │   │   ├── resume/             # Resume Intelligence
+│   │   │   ├── jobMarket/          # Job Matching
+│   │   │   ├── mentor/             # AI Mentor
+│   │   │   └── skillGap/           # Skill Analysis
+│   │   ├── middleware/             # Auth, Validation, Errors
+│   │   ├── queues/                 # Background Jobs
+│   │   └── utils/                  # Shared Utilities
+│   └── supabase/migrations/        # Database Schema
+│
+├── 🤖 aiml/                        # AI/ML Scripts
+└── 📁 reserch and others/          # Research Materials
 ```
 
-## Core Value Proposition
+---
 
-ZeroGap is not just another learning platform or job portal. It acts as an **AI Career Operating System** that continuously understands a user's skills, identifies gaps, recommends the best learning resources, tracks progress, improves resumes, and matches them with the right opportunities—all through a personalized, data-driven experience.
+## 🚀 Quick Start
+
+### Prerequisites
+
+- **Node.js** 18+ 
+- **npm** or **yarn**
+- **Supabase** account (free tier works)
+- **OpenAI** API key
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/kavyajaiswal007/zerogap.space.git
+cd zerogap.space
+
+# Install frontend dependencies
+cd frontend
+npm install
+
+# Install backend dependencies
+cd ../backend
+npm install
+```
+
+### Environment Setup
+
+```bash
+# Frontend (.env.local)
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_anon_key
+
+# Backend (.env)
+SUPABASE_URL=your_supabase_url
+SUPABASE_SERVICE_ROLE_KEY=your_service_key
+OPENAI_API_KEY=your_openai_key
+REDIS_URL=your_redis_url
+```
+
+### Run Development Server
+
+```bash
+# Frontend (port 5173)
+cd frontend
+npm run dev
+
+# Backend (port 3000)
+cd backend
+npm run dev
+```
+
+---
+
+## 📊 How It Works
+
+### Step 1 — Authentication
+```
+Email/Password or Google Sign-In → JWT Token → Secure Profile
+```
+
+### Step 2 — Career Profile
+```
+Education + Skills + Experience + Goals → Complete Profile
+```
+
+### Step 3 — AI Skill Gap Analysis
+```
+User Skills vs Industry Requirements → Missing Skills → Roadmap
+```
+
+### Step 4 — Personalized Dashboard
+```
+Career Readiness Score + Learning Streak + Progress + AI Suggestions
+```
+
+### Step 5 — Smart Recommendations
+```
+Skill Gap → YouTube Playlists + Docs + Projects + Practice
+```
+
+### Step 6 — Resume Intelligence
+```
+Upload Resume → ATS Score → AI Review → Optimization Tips
+```
+
+### Step 7 — Job Matching
+```
+Skills + Goals + Location → Ranked Opportunities → Preparation Checklist
+```
+
+### Step 8 — AI Mentor
+```
+Ask Questions → AI Responds Based on YOUR Profile
+```
+
+---
+
+## 🎨 Screenshots
+
+<div align="center">
+
+| Dashboard | Skill Analysis | Job Matching |
+|-----------|---------------|--------------|
+| ![Dashboard](https://via.placeholder.com/400x250/6366f1/ffffff?text=Dashboard) | ![Skills](https://via.placeholder.com/400x250/8b5cf6/ffffff?text=Skill+Analysis) | ![Jobs](https://via.placeholder.com/400x250/a855f7/ffffff?text=Job+Matching) |
+
+| Resume Builder | AI Mentor | Learning Path |
+|---------------|-----------|---------------|
+| ![Resume](https://via.placeholder.com/400x250/ec4899/ffffff?text=Resume+Builder) | ![Mentor](https://via.placeholder.com/400x250/f43f5e/ffffff?text=AI+Mentor) | ![Learning](https://via.placeholder.com/400x250/f97316/ffffff?text=Learning+Path) |
+
+</div>
+
+---
+
+## 🔮 Future Roadmap
+
+- [ ] 🎤 AI Mock Interviews
+- [ ] 💻 Coding Skill Assessment
+- [ ] ⚡ Real-time Skill Tests
+- [ ] 🐙 GitHub Profile Analysis
+- [ ] 💼 LinkedIn Profile Analysis
+- [ ] 🌐 Automatic Portfolio Generator
+- [ ] 📅 Daily Learning Planner
+- [ ] 🏢 Company-wise Interview Prep
+- [ ] 👥 Community Challenges
+- [ ] 🧑‍🏫 Mentor Marketplace
+- [ ] 💼 Internship Recommendations
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please see our [Contributing Guidelines](CONTRIBUTING.md).
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Support
+
+<div align="center">
+
+If you find this project helpful, please give it a ⭐️!
+
+[![Star History Chart](https://api.star-history.com/svg?repos=kavyajaiswal007/zerogap.space&type=Date)](https://star-history.com/#kavyajaiswal007/zerogap.space&Date)
+
+---
+
+**Built with ❤️ by [Kavya Jaiswal](https://github.com/kavyajaiswal007)**
+
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/)
+
+</div>
