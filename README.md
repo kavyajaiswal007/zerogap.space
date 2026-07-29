@@ -1,285 +1,160 @@
-<div align="center">
+# zerogap.space
 
-# 🚀 ZeroGap
+**AI career coach** that actually knows what you're missing.
 
-### AI-Powered Career Intelligence Platform
+Students waste months grinding random tutorials and still can't land jobs. ZeroGap connects your current skills to what companies actually want — then gives you a playlist, a roadmap, and a resume fix so you can stop guessing and start applying.
 
-[![GitHub stars](https://img.shields.io/github/stars/kavyajaiswal007/zerogap.space?style=for-the-badge&logo=github&color=yellow)](https://github.com/kavyajaiswal007/zerogap.space/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/kavyajaiswal007/zerogap.space?style=for-the-badge&logo=github&color=blue)](https://github.com/kavyajaiswal007/zerogap.space/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/kavyajaiswal007/zerogap.space?style=for-the-badge&logo=github&color=red)](https://github.com/kavyajaiswal007/zerogap.space/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/kavyajaiswal007/zerogap.space?style=for-the-badge&logo=github&color=green)](https://github.com/kavyajaiswal007/zerogap.space/pulls)
-[![License](https://img.shields.io/github/license/kavyajaiswal007/zerogap.space?style=for-the-badge&color=purple)](https://github.com/kavyajaiswal007/zerogap.space/blob/main/LICENSE)
+Built as a learning + resume + job matching platform in one place. No separate tools, no generic advice, no "learn Python" spam.
 
 ---
 
-**ZeroGap** is an AI-powered platform that helps students and early professionals identify skill gaps, build personalized learning roadmaps, improve resumes, and discover job opportunities — all based on their current abilities and career goals.
+## what it does
 
-[🚀 Live Demo](https://zerogap-frontend-002.vercel.app) · [📋 Report Bug](https://github.com/kavyajaiswal007/zerogap.space/issues) · [✨ Request Feature](https://github.com/kavyajaiswal007/zerogap.space/issues)
-
-</div>
-
----
-
-## 🎯 The Problem
-
-Today's students face critical career challenges:
-
-| Challenge | Description |
-|-----------|-------------|
-| 🎯 **Skill Uncertainty** | Don't know which skills companies actually expect |
-| 📚 **Random Learning** | Waste time following random YouTube playlists |
-| ✅ **Job Readiness** | Don't know if they are job-ready |
-| 📄 **Resume Issues** | Resumes aren't ATS optimized |
-| 🔗 **Disconnected Tools** | No platform connecting learning, resume, and job prep |
-
-**ZeroGap solves all of this in one platform.**
+- **skill gap analysis** — pick a role (backend, frontend, data), and the AI compares you against market requirements. you get a list of exactly what's missing, not a generic course dump
+- **personalized roadmap** — 4-stage plan with tasks, projects, and resources tailored to your profile. each stage builds on the last
+- **resume intelligence** — upload your PDF, get an ATS score, keyword match, and specific things to add. compares your resume against actual job descriptions
+- **job matching** — scrapes listings, ranks them by how well you fit, shows you what skills you'd need for each one
+- **AI mentor** — chat that reads your profile, skills, and roadmap before answering. asks you "what should I learn next?" and actually knows what you already know
+- **dashboard** — career readiness score, skill match %, learning streak, weekly goals. no two dashboards look the same
+- **peer benchmark** — how you stack against other students targeting the same role
 
 ---
 
-## ✨ Features
+## tech stack
 
-<div align="center">
-
-| Feature | Description |
-|---------|-------------|
-| 🔐 **Smart Authentication** | Email/Password + Google Sign-In with secure JWT |
-| 👤 **Career Profile** | Complete career information beyond basic details |
-| 🧠 **AI Skill Gap Analysis** | Compare skills against industry expectations |
-| 📊 **Personalized Dashboard** | Unique dashboard with scores, streaks, and roadmap |
-| 📚 **AI Learning Resources** | YouTube playlists, docs, and projects for skill gaps |
-| 📄 **Resume Intelligence** | ATS score, keyword match, AI review & optimization |
-| 💼 **Smart Job Matching** | Ranked opportunities based on compatibility |
-| 🤖 **AI Career Mentor** | Chat with AI based on your own profile |
-
-</div>
+| what | using |
+|------|-------|
+| frontend | React 19, Tailwind CSS 4, Vite |
+| backend | Node.js + Express + TypeScript |
+| database | Supabase (PostgreSQL + auth + storage) |
+| AI | Anthropic Claude + OpenAI GPT-4o fallback |
+| queues | BullMQ + Redis (optional, degrades gracefully) |
+| jobs API | JSearch RapidAPI |
+| resume parsing | PDF parsing + Claude extraction |
+| hosting | Vercel (frontend) / Render (backend) |
 
 ---
 
-## 🛠️ Tech Stack
-
-<div align="center">
-
-### Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-
-### Database & Auth
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-### AI & APIs
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-D4A574?style=for-the-badge&logo=anthropic&logoColor=white)
-
-### Deployment
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
-
-</div>
-
----
-
-## 📐 Architecture
+## project layout
 
 ```
 zerogap.space/
-├── 🎨 frontend/                    # React + TypeScript + Tailwind
+├── frontend/          # React SPA
 │   ├── src/
-│   │   ├── components/             # UI Components
-│   │   ├── pages/                  # Route Pages
-│   │   └── utils/                  # Helper Functions
-│   └── public/                     # Static Assets
+│   │   ├── App.tsx         # routes + lazy loading
+│   │   ├── session.tsx     # auth context (Supabase JWT)
+│   │   ├── backend.ts      # API client + types
+│   │   ├── Dashboard.tsx
+│   │   ├── ResumePage.tsx
+│   │   ├── JobMatchPage.tsx
+│   │   ├── ... 20+ components
+│   │   └── learnpath/      # YouTube playlist learning
+│   └── public/
 │
-├── ⚙️ backend/                     # Node.js + Express + TypeScript
+├── backend/           # Express API
 │   ├── src/
-│   │   ├── modules/                # Feature Modules
-│   │   │   ├── auth/               # Authentication
-│   │   │   ├── profile/            # User Profiles
-│   │   │   ├── dashboard/          # Dashboard Analytics
-│   │   │   ├── resume/             # Resume Intelligence
-│   │   │   ├── jobMarket/          # Job Matching
-│   │   │   ├── mentor/             # AI Mentor
-│   │   │   └── skillGap/           # Skill Analysis
-│   │   ├── middleware/             # Auth, Validation, Errors
-│   │   ├── queues/                 # Background Jobs
-│   │   └── utils/                  # Shared Utilities
-│   └── supabase/migrations/        # Database Schema
+│   │   ├── modules/    # 17 feature modules
+│   │   │   ├── auth/
+│   │   │   ├── profile/
+│   │   │   ├── dashboard/
+│   │   │   ├── skillGap/
+│   │   │   ├── resume/
+│   │   │   ├── mentor/
+│   │   │   └── ...
+│   │   ├── middleware/  # auth, rate-limit, validation
+│   │   ├── queues/      # background jobs
+│   │   ├── utils/       # AI clients, scoring, parsers
+│   │   └── workers/
+│   ├── supabase/migrations/
+│   └── scripts/         # seed data
 │
-├── 🤖 aiml/                        # AI/ML Scripts
-└── 📁 reserch and others/          # Research Materials
+├── backend-py/        # Python/FastAPI port (work in progress)
+│   └── app/
+│       ├── main.py
+│       ├── modules/     # same modules, FastAPI style
+│       └── utils/
+│
+├── README.md
+├── .gitignore
+└── LICENSE
 ```
 
 ---
 
-## 🚀 Quick Start
+## local setup
 
-### Prerequisites
-
-- **Node.js** 18+ 
-- **npm** or **yarn**
-- **Supabase** account (free tier works)
-- **OpenAI** API key
-
-### Installation
+### frontend
 
 ```bash
-# Clone the repository
-git clone https://github.com/kavyajaiswal007/zerogap.space.git
-cd zerogap.space
-
-# Install frontend dependencies
 cd frontend
 npm install
-
-# Install backend dependencies
-cd ../backend
-npm install
+cp ../.env.local .env.local   # add your Supabase keys
+npm run dev                    # → localhost:3000
 ```
 
-### Environment Setup
+### backend
 
 ```bash
-# Frontend (.env.local)
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_anon_key
-
-# Backend (.env)
-SUPABASE_URL=your_supabase_url
-SUPABASE_SERVICE_ROLE_KEY=your_service_key
-OPENAI_API_KEY=your_openai_key
-REDIS_URL=your_redis_url
-```
-
-### Run Development Server
-
-```bash
-# Frontend (port 5173)
-cd frontend
-npm run dev
-
-# Backend (port 3000)
 cd backend
-npm run dev
+npm install
+cp .env.example .env
+# fill in SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, OPENAI_API_KEY, etc.
+npm run dev                    # → localhost:5000
+```
+
+### env variables you'll need
+
+these are the ones that matter:
+
+```
+SUPABASE_URL=             # from your Supabase project
+SUPABASE_SERVICE_ROLE_KEY=
+OPENAI_API_KEY=           # or ANTHROPIC_API_KEY
+REDIS_URL=                # optional, app works without it
+RAPIDAPI_KEY=             # for job listings (optional)
+FRONTEND_URL=http://localhost:3000
 ```
 
 ---
 
-## 📊 How It Works
+## api endpoints (main ones)
 
-### Step 1 — Authentication
 ```
-Email/Password or Google Sign-In → JWT Token → Secure Profile
-```
-
-### Step 2 — Career Profile
-```
-Education + Skills + Experience + Goals → Complete Profile
-```
-
-### Step 3 — AI Skill Gap Analysis
-```
-User Skills vs Industry Requirements → Missing Skills → Roadmap
-```
-
-### Step 4 — Personalized Dashboard
-```
-Career Readiness Score + Learning Streak + Progress + AI Suggestions
+POST   /api/auth/register
+POST   /api/auth/login
+GET    /api/auth/me
+POST   /api/skill-gap/analyze
+GET    /api/skill-gap/latest
+GET    /api/dashboard
+GET    /api/score/current
+POST   /api/roadmap/generate
+POST   /api/resume        (upload PDF)
+POST   /api/mentor/chat
+GET    /api/job-market/listings
 ```
 
-### Step 5 — Smart Recommendations
-```
-Skill Gap → YouTube Playlists + Docs + Projects + Practice
-```
+full list at `/api/docs` when running locally.
 
-### Step 6 — Resume Intelligence
-```
-Upload Resume → ATS Score → AI Review → Optimization Tips
-```
+---
 
-### Step 7 — Job Matching
-```
-Skills + Goals + Location → Ranked Opportunities → Preparation Checklist
-```
+## why i built this
 
-### Step 8 — AI Mentor
-```
-Ask Questions → AI Responds Based on YOUR Profile
+I was tired of seeing friends grind LeetCode and random YouTube courses, apply to 200 jobs, hear nothing back, and have no idea why. The problem isn't that they can't code — it's that no platform tells them *what* to learn, *how* to prove it, and *where* to apply, all in one flow.
+
+ZeroGap is my attempt to fix that. One profile, one dashboard, one AI that actually reads your resume before giving advice.
+
+---
+
+## contributing
+
+PRs welcome. If you find a bug or have an idea, open an issue or just send a PR. No strict guidelines, just don't break the build.
+
+```bash
+# quick start
+git clone https://github.com/kavyajaiswal007/zerogap.space
+cd zerogap.space/frontend && npm install && npm run dev
 ```
 
 ---
 
-## 🎨 Screenshots
-
-<div align="center">
-
-| Dashboard | Skill Analysis | Job Matching |
-|-----------|---------------|--------------|
-| ![Dashboard](https://via.placeholder.com/400x250/6366f1/ffffff?text=Dashboard) | ![Skills](https://via.placeholder.com/400x250/8b5cf6/ffffff?text=Skill+Analysis) | ![Jobs](https://via.placeholder.com/400x250/a855f7/ffffff?text=Job+Matching) |
-
-| Resume Builder | AI Mentor | Learning Path |
-|---------------|-----------|---------------|
-| ![Resume](https://via.placeholder.com/400x250/ec4899/ffffff?text=Resume+Builder) | ![Mentor](https://via.placeholder.com/400x250/f43f5e/ffffff?text=AI+Mentor) | ![Learning](https://via.placeholder.com/400x250/f97316/ffffff?text=Learning+Path) |
-
-</div>
-
----
-
-## 🔮 Future Roadmap
-
-- [ ] 🎤 AI Mock Interviews
-- [ ] 💻 Coding Skill Assessment
-- [ ] ⚡ Real-time Skill Tests
-- [ ] 🐙 GitHub Profile Analysis
-- [ ] 💼 LinkedIn Profile Analysis
-- [ ] 🌐 Automatic Portfolio Generator
-- [ ] 📅 Daily Learning Planner
-- [ ] 🏢 Company-wise Interview Prep
-- [ ] 👥 Community Challenges
-- [ ] 🧑‍🏫 Mentor Marketplace
-- [ ] 💼 Internship Recommendations
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please see our [Contributing Guidelines](CONTRIBUTING.md).
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Support
-
-<div align="center">
-
-If you find this project helpful, please give it a ⭐️!
-
-[![Star History Chart](https://api.star-history.com/svg?repos=kavyajaiswal007/zerogap.space&type=Date)](https://star-history.com/#kavyajaiswal007/zerogap.space&Date)
-
----
-
-**Built with ❤️ by [Kavya Jaiswal](https://github.com/kavyajaiswal007)**
-
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/)
-
-</div>
+*built by [kavya jaiswal](https://github.com/kavyajaiswal007)*

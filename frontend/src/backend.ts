@@ -1,7 +1,7 @@
 const defaultApiBaseUrl =
   typeof window !== 'undefined' && window.location.hostname.includes('vercel.app')
     ? 'https://zerogap-backend-service.onrender.com'
-    : 'http://localhost:5050';
+    : 'http://localhost:5000';
 
 export const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL ?? defaultApiBaseUrl).trim().replace(/\/$/, '');
 
