@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "cd backend && npm install && npx tsc"
+  }
+}
